@@ -8,3 +8,10 @@ Q. How is the staging area different from the working directory and the reposito
 Staging area acts as a bridge between working directory and the repository. The changes(or files) you want to commit are first added to the staging area from 
 the working directory, then these files are bundled into a single commit in the repository. It helps us to commit changes according to the principle of 
 "one commit per logical change".
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+Since staging area consist of the most recent commit until any changes have been made to it, and if any change is made to file in staging area that is ready 
+to be committed, we can actually find the diff between the two i.e in the staging area and the most recent commit with the help of 'git diff --staged', if we
+see any logical change then we can commit with a logical message ofcourse otherwise no need to commit.
+
+   
