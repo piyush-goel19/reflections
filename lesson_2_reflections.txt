@@ -1,0 +1,10 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+When we initialize a repository on a specific directory, git creates an empty repository with no files to track or commit on. It just initializes the process.
+Every git repository is linked to a specific directory. All the files in that directory and the subdirectories of that directory only can be contained in that 
+repository. And sometimes its possible that git contain, or can keep track of, some of the files of that directory rather than all of them.
+In order to keep track of all the files in that directory along with their commit history.
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area acts as a bridge between working directory and the repository. The changes(or files) you want to commit are first added to the staging area from 
+the working directory, then these files are bundled into a single commit in the repository. It helps us to commit changes according to the principle of 
+"one commit per logical change".
