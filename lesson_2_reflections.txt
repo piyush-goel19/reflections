@@ -14,4 +14,7 @@ Since staging area consist of the most recent commit until any changes have been
 to be committed, we can actually find the diff between the two i.e in the staging area and the most recent commit with the help of 'git diff --staged', if we
 see any logical change then we can commit with a logical message ofcourse otherwise no need to commit.
 
-   
+Q. What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+When you want to create another version of the same file with little modification so as to create a experimental version and not the release version, in such 
+a case you can use another branch to try out that version without working with the master branch and hence keeping the history organised and intact. You can
+always checkout the master branch and commit changes if any.    
