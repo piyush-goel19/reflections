@@ -17,4 +17,9 @@ see any logical change then we can commit with a logical message ofcourse otherw
 Q. What are some situations when branches would be helpful in keeping your history organised? How would branches help?
 When you want to create another version of the same file with little modification so as to create a experimental version and not the release version, in such 
 a case you can use another branch to try out that version without working with the master branch and hence keeping the history organised and intact. You can
-always checkout the master branch and commit changes if any.    
+always checkout the master branch and commit changes if any.
+
+Q. How do the diagrams help you visualize the branch structure?
+Diagrams actually show us the most recent commits along with their parent commits(or the reference to the commit that was checked out when it was committed) 
+tracing all the way back to the initial commit. Through diagram we also know that which commits are reachable from where, thereby demonstrating the entire 
+branch structure.      
