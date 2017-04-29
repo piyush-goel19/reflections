@@ -22,4 +22,10 @@ always checkout the master branch and commit changes if any.
 Q. How do the diagrams help you visualize the branch structure?
 Diagrams actually show us the most recent commits along with their parent commits(or the reference to the commit that was checked out when it was committed) 
 tracing all the way back to the initial commit. Through diagram we also know that which commits are reachable from where, thereby demonstrating the entire 
-branch structure.      
+branch structure.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+We can simply incorporate all the changes that have been made to the different versions of file together under one roof. By merging the two branches we get
+a new merged commit with the label of the checked out branch pointing to that commit having the changes of both the branches. 
+Because, since we are merging branch1 into branch2, the merged commit will have the label of branch2 and all the changes of both branches, so its parents 
+would be both the previous tip of branch2 as well as the tip of branch1. So its a good way to represent merge.    
