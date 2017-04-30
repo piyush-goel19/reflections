@@ -28,4 +28,12 @@ Q. What is the result of merging two branches together? Why do we represent it i
 We can simply incorporate all the changes that have been made to the different versions of file together under one roof. By merging the two branches we get
 a new merged commit with the label of the checked out branch pointing to that commit having the changes of both the branches. 
 Because, since we are merging branch1 into branch2, the merged commit will have the label of branch2 and all the changes of both branches, so its parents 
-would be both the previous tip of branch2 as well as the tip of branch1. So its a good way to represent merge.    
+would be both the previous tip of branch2 as well as the tip of branch1. So its a good way to represent merge.
+
+Q. What are the pros and cons of gits automatic merging vs always doing merges manually?
+since gits automatic merging doesnt always work in all the cases particularly the ones where both the branches/versions changed the same part of the original 
+file and git doesnt know which one to keep and which one to discard, therefore results in merge conflict. In such cases manual merging could prove to be a 
+useful one. Git, in such cases of ambiguity, gives this choice in the hands of user. Except this automatic merging works fine.
+Another case where gits automatic merging wouldnt work: when one of the two versions of the original file alters the same portion of the code/file like the 
+same function. one made a slight change in the function present in the original and other has the same function but with a different name or anything like 
+this.     
