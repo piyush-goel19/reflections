@@ -16,3 +16,22 @@ Fork- making a copy of someone else's github repository on the github servers un
 machine.
 Branches- its just a label given to commits during any experimental version of the original or the version which adds some new feature.
   
+Q. What is the benefit of having the copy of the last known state of the remote stored locally?
+the benefit is that when we are offline and might have made some changes to the local branch i.e the master branch on the computer, in 
+such a case we can use the information or the updated local copy of the remote branch i.e the origin/master branch itself, to merge 
+changes that might have been made by other collaborators on the remote branch on github which we are not aware of, into the master branch
+thereby creating a merge commit including all the changes, either made locally or remotely, and hence keeping the remote branch and the
+local branch in sync with each other after pushing this master branch onto github.
+
+Q. How would you collaborate without using git or github? What would be easier, and what would be harder?
+The harder part would be to share, or drove other people into our work and get feedback from them and also to include the changes made
+by them into our main code. Overall saying, it would be definitely harder to collaborate.
+
+Q. When would you want to make changes in a seperate branch rather than directly in the master? What benefit does each approach has?
+the changes should be made to the seperate branch rather than directly in master when you are going for a version of the file which 
+you are not sure of including in the main/master work, also in case of some experimental work, the changes should be carried out on a 
+seperate branch rather than the master. In this way you wont mess with the actual productive work and end up having something that you 
+dont want.
+Also its very important to carry out changes in a seperate branch when you are working in a team on a single project or collaborating 
+with others on their work. In this case, you should make a pull request in order include your changes into the master rather than 
+messing around with the master itself.       
