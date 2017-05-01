@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+when we want to collaborate with others i.e share our work with other people and also involve them with us, so that they could also 
+contribute something or the other in our work while either sitting down the hall or miles away. Thats where comes the usefulness of
+github platform and the need to create remote repositories so that everyone could push thier changes to it at one place. And remote 
+repository also helps us to keep our files on github and on our computer in sync.
