@@ -8,4 +8,11 @@ Q. Why might you want to always pull changes manually rather than having git aut
 Manually pulling changes in order to stay up-to-date give us the option to include the changes as and when we require them in our local 
 repository. In some cases we might not approve the changes or dont want the changes made by others on github to be included in our 
 version, so in such cases if git automatically pull every change on to our local repository then it would be difficult to isolate those
-changes with ours. Also manuall pull ensures that we are pulling what and how much we want.   
+changes with ours. Also manuall pull ensures that we are pulling what and how much we want. 
+
+Q. Describe the differences between forks,clones and branches. When would you choose one instead of another?
+Clone- making a copy of a repository locally or from github onto your machine containing all files along with the entire commit history.
+Fork- making a copy of someone else's github repository on the github servers under your account without even cloning it onto your local
+machine.
+Branches- its just a label given to commits during any experimental version of the original or the version which adds some new feature.
+  
